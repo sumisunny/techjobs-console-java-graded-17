@@ -92,8 +92,7 @@ public class JobData {
         // TODO - implement this method
         ArrayList<HashMap<String, String>> matchingJobs = new ArrayList<>();
 
-        for (
-                HashMap<String, String> job : allJobs) {
+        for (HashMap<String, String> job : allJobs) {
 
             for (Map.Entry<String, String> m : job.entrySet()) {
                 if (m.getValue().toLowerCase().contains(value.toLowerCase())) {
