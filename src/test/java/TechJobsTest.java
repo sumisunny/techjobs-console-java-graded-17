@@ -46,6 +46,7 @@ public class TechJobsTest {
         assertEquals(expected.replaceAll("\r\n?", "\n"), output.replaceAll("\r\n?", "\n"));
     }
 
+
     @Test
     public void testPrintJobsNoResults() throws IOException {
         String input = "0\n2\nChicago\nx";
